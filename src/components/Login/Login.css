@@ -1,0 +1,115 @@
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.create-account-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.submit-row {
+    padding-top:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.rounded-input {
+    padding:5px;
+    border-radius:10px;
+  }
+
+.login-title {
+    font-size: 35px;
+    font-weight: 1000;
+    color: rgb(12, 231, 77);
+    background-color: darkgreen;
+    margin: auto;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgreen;
+    overflow:auto;
+}
+
+.login-name {
+    background-color: rgba(0, 0, 0, 0.11);
+    font-size: 15px;
+    font-weight: 700;
+    text-align:center;
+    color: white;
+    width: auto;
+    height: 25px;
+    margin: 5px;
+    padding: 0px 10px 0px 10px;
+    border: none;
+    border-radius: 50px;
+    transition: opacity 0.5s ease-in;
+    letter-spacing: 1.5px;
+}
+
+.error{
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('https://i.imgur.com/GnyDvKN.png');
+    border: 1px solid;
+    margin: 10px 0px;
+    padding: 15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+/* CSS */
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
